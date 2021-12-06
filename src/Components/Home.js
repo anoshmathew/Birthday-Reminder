@@ -8,7 +8,6 @@ const Home = () => {
             {/* <a href="/empdetails">Employee Details</a>   ?????*/}
             <Link to="/empdetails">Employee Details</Link><br/>
             <Link to="/empbirthday">Today Birthday</Link>
-
         </div>
     )
 }

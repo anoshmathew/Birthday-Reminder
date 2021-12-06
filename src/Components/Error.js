@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-const Empdetails = () => {
+const Error = () => {
     return (
-        <div>
-            <h1>Error Page</h1>
+        <div className="error_page">
+            <h1>Oops! Page Not Found</h1>
         </div>
     )
 }
 
-export default Empdetails
+export default Error;

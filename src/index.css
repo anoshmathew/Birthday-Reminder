@@ -10,8 +10,8 @@
 
 body{
   font-family: 'Mulish', sans-serif;
-  background:  rgb(4, 4, 161);
-  color: yellow;
+  background:  rgb(44, 44, 187);
+  color: rgb(2, 2, 88);
   line-height:1.5;
   font-size: 0.875rem;
   min-height: 100vh;
@@ -19,9 +19,70 @@ body{
   justify-content: center;
   align-items: center;
 }
-
+a{
+  text-decoration:  none;
+  text-align: center;
+}
+h1,h2,h3,h4{
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2rem;
+}
+h3{
+  font-size: 1.25rem;
+}
+h4{
+  font-size: 0.875rem;
+}
+p{
+  margin-bottom: 1.2rem;
+  color:grey;
+}
 .container{
+ 
   width: 90vw;
   margin:5rem;
   background: wheat;
+  max-width: 460px;
+  border-radius: 0.25rem;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 5px 15px black
+}
+.container h3{
+  font-weight: 600;
+  text-transform: none;
+  margin-bottom: 2rem;
+}
+.container a{
+  color: white;
+  display: block;
+  width: 100%;
+  border-color: transparent;
+  background: blue;
+  margin: 2rem auto 0 auto;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  letter-spacing: 0.1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  outline:none;
+  box-shadow: 3px 3px 5px black;
+  
+}
+.error_page{
+  color:blue;
+  background: white;
+  width: 60vw;
+  margin:auto;
+  text-align: center;
+  padding:10px;
+  border-radius: 5px;
 }
